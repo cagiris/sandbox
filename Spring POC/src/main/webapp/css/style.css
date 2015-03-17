@@ -1,0 +1,284 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	width: 100%;
+	height: 40px;
+	background-color: black;	
+}
+
+#home-link, #header-controls {
+	width: 250px;
+	float: right;
+	display: block;	
+	color: white;
+	float: right;
+  	transform: translateY(50%);
+}
+
+#home-link {
+	float: left;
+	margin-left: 30px;
+}
+
+.background-red {
+	padding:10px;
+	background-color: red;
+}
+
+.background-green {
+    padding:5px;
+    background-color: green;	
+}
+
+/* Login/Signup controls*/
+
+#login-box, #signup-box {
+	max-width: 430px;
+	min-width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+  	position: relative;
+  	padding: 20px;
+  	transform: translateY(50%);
+	border: 1px solid rgba(50, 50, 50, 0.75);
+	-webkit-box-shadow: 7px 7px 25px 0px rgba(50, 50, 50, 0.50);
+	-moz-box-shadow:    7px 7px 25px 0px rgba(50, 50, 50, 0.50);
+	box-shadow:         7px 7px 25px 0px rgba(50, 50, 50, 0.50);
+}
+
+#signup-box {
+	transform: translateY(25%);
+}
+
+.field-wrapper {
+	margin: 10px;
+}
+
+.field-wrapper label {
+	color: #595959;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 18px;
+	display: block;
+	max-width: 550px;
+	padding-bottom: .4em;
+}
+
+.field-wrapper input[type="text"], input[type="password"]{
+	width:100%;
+	font-size: 17px;
+	color: #595959;
+	font-family: 'Helvetica Neue', Arial, Helvetica, Verdana, sans-serif;
+	min-height: 36px;
+	background-color: #fff;
+	border: 2px solid #c9c9c9;
+	padding-left: 5px;
+}
+
+.field-wrapper button {
+	width:50%;
+	color: #fff;
+	font-size: 17px;
+	background-color: #737373;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: capitalize;
+	border-radius: 3px;
+	height: 48px;
+	float: left;
+}
+
+.field-wrapper button:HOVER {
+	background-color: #4a9cc9;
+	cursor: pointer;
+}
+
+.link-block {
+	display:block;
+	width: 40%;
+	height: 48px;
+	margin-left: 10%;
+	padding-top: 17px;
+	float: left;
+	text-align: center;
+	text-transform: capitalize;
+	position:relative;
+}
+
+.link a {
+	color: #2c9ab7;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+.link a:HOVER{
+	text-decoration: underline;
+}
+
+.errorMsg {
+	color: red;
+	font-size: 15px;	
+}
+
+.successMsg {
+	color: green;
+	font-size: 15px;	
+}
+
+.float-right {
+	float: right;	
+}
+
+.clear {
+	clear: both;
+}
+
+.errorMsg {
+	color: red;
+	font-size: 15px;	
+}
+
+.successMsg {
+	color: green;
+	font-size: 15px;	
+}
+
+.errorMsg ul, .successMsg ul {
+	margin: 3px;
+	padding: 2px;
+}
+
+.errorMsg ul li, .successMsg ul li {
+	list-style: none;
+}
+
+/*Index page styles*/
+
+#title {
+	font-size: 50px;
+	width:100%;
+	text-align: center;
+	display: block;
+	margin: 15px 0px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+}
+
+#file-upload-form-wrapper {
+	width:100%;
+	padding-bottom:20px;
+	border-bottom: 2px solid black;
+}
+
+#file-upload-form {
+	max-width: 430px;
+	min-width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+  	position: relative;
+}
+
+.custom-button {
+	width:45%;
+	height: 48px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.custom-button button {
+	width:100%;
+	height: 100%;
+	color: #fff;
+	font-size: 17px;
+	background-color: #737373;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: capitalize;
+	border-radius: 3px;
+}
+
+.custom-button button:HOVER {
+	background-color: #4a9cc9;
+	cursor: pointer;
+}
+
+#list-employees, #edit-form {
+	width: 980px;
+	margin: 20px auto;
+	font: 14px/1.4 Georgia, Serif;
+}
+
+#user-items {
+	width: 100%;
+	border-spacing: 0px;
+	border-color: gray;
+}
+
+thead {
+	vertical-align: middle;
+}
+
+td, th {
+	padding: 6px;
+	text-align: left;
+}
+
+#user-items td, th {
+	border: 1px solid #ccc;
+}
+
+th {
+    background: #333;
+	color: white;
+	font-weight: bold;
+}
+
+.image-icons {
+	max-width : 150px;
+	height: auto;
+}
+
+.update-button {
+	width : 20px;
+	height: auto;
+	margin-left: 25px;
+}
+
+.delete-button {
+	width : 30px;
+	height: auto;
+	margin-left: 10px;
+}
+
+#edit-form table {
+	width: 100%;
+}
+
+#edit-form table tr td:nth-of-type(1) {
+	width:25%
+}
+
+#edit-form table tr td:nth-of-type(2) {
+	width:40%
+}
+
+#edit-form table tr td:nth-of-type(3) {
+	width:35%
+}
+
+#edit-form table tr .fieldLabel {
+	text-align: right;
+}
+
+#edit-form .custom-button {
+	width: 200px;
+	height: 48px;
+	margin: 10px auto;
+	display: inline-block;
+}
